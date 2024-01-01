@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jaden medina</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,700;0,800;0,900;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="bgcircle"></div>
+    <div class="page">
+        <div class="toplogo">
+            jaden<span class="tuiofnduiodf">medina</span>
+        </div>
+        <div class="leftsidetext">
+            <div class="texttitle">
+                Hi, I’m Jaden
+            </div>
+            <div class="textdescription">
+                A web Designer
+            </div>
+            <div class="subdescription">
+                Turning my imagination into a reality
+            </div>
+            <a href="http://google.com" target="_blank" rel="noopener noreferrer">
+            <div class="textbtn">
+                Who Am I?
+            </div>
+        </a>
+        </div>
+        <div class="rightsidestuff">
+            <div class="ehfuzfdshidfzu">
+                <div class="caflagimg">
+                    <img src="img/187.png" alt="">
+                </div>
+                <div class="caflagbelowtext">
+                    <div class="flagimage">
+                        <img src="img/caflag.png" alt="">
+                    </div>
+                    <div class="flagtext">Canadian <br> Web Designer</div>
+                </div>
+            </div>
+            <div class="phtographerone">
+                <div class="imgphotographer">
+                    <img src="img/154.png" alt="">
+                </div>
+                <div class="photographertext">
+                    <div class="subtextshat">
+                        Photographer 
+                    </div>
+                    <div class="maintextphoto">
+                        Want a portfolio like this? Hire me!
+                    </div>
+                </div>
+            </div>
+            <div class="aboutpanel">
+                <div class="pfpimg">
+                    <img src="img/143.png" alt="">
+                </div>
+                <div class="abtnasme">
+                    Jaden Medina
+                </div>
+                <div class="sesabttt">
+                    Web Designer
+                </div>
+                <div class="seperationbar"></div>
+                <div class="extensivedescription">
+                    I have come to realized that tall damands can only be fulfilled by capeable people. Much too often do you think of what those thoughts can be rather than trying to see what you can make them. 
+                </div>
+                <div class="checkshat">
+                    <div class="checkicon">
+                        <img src="img/check.svg" alt="">
+                    </div>
+                    <div class="checkdesc">
+                        Let’s work together!
+                    </div>
+                </div>
+            </div>
+            <div class="wrestlerthing">
+                <div class="wrestlerimg">
+                    <img src="img/153.png" alt="">
+                </div>
+                <div class="wrettext">
+                    <div class="smalheadline">
+                        Wrestler
+                    </div>
+                    <div class="otherheadline">
+                        Multidisciplinary Designer
+                    </div>
+                    <div class="descriptionwrestler">
+                        As a <span class="shattext">multidisciplinary</span> designer, I bring a unique blend of creativity and technical expertise to every project. My designs are not just visually appealing, but also user-friendly and responsive. I specialize in crafting bespoke websites that reflect your brand’s identity and resonate with your audience. 
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script>
+        const rightelement = document.querySelector(".rightsidestuff");
+        const leftsidetext = document.querySelector(".leftsidetext");
+
+        window.addEventListener("resize", () => {
+            if(window.innerWidth < 1450){
+                rightelement.style.display = "none";
+                leftsidetext.style.left = "20px";
+            }else{
+                rightelement.style.display = "block";
+                leftsidetext.style.left = "80px";
+            }
+        } )
+
+    </script>
+    
+</body>
+</html>
